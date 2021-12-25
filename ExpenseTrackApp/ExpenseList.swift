@@ -21,7 +21,7 @@ class ExpenseList: UIViewController ,UITableViewDelegate,UITableViewDataSource, 
 //    var expenseArr = [NSManagedObject]?.self
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.navigationItem.setHidesBackButton(true, animated:true)
         
         // Do any additional setup after loading the view.
     }

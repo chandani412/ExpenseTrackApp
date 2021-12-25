@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2E0C5827779079002F1665 /* ExpenseObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E0C5727779079002F1665 /* ExpenseObj.swift */; };
 		4C44274D27771E7A00BEB493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C44274C27771E7A00BEB493 /* AppDelegate.swift */; };
 		4C44274F27771E7A00BEB493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C44274E27771E7A00BEB493 /* SceneDelegate.swift */; };
 		4C44275127771E7A00BEB493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C44275027771E7A00BEB493 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C2E0C5727779079002F1665 /* ExpenseObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseObj.swift; sourceTree = "<group>"; };
 		4C44274927771E7A00BEB493 /* ExpenseTrackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTrackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C44274C27771E7A00BEB493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C44274E27771E7A00BEB493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				4C442777277731E900BEB493 /* Toast.swift */,
 				4C44276F2777229000BEB493 /* Expense+CoreDataClass.swift */,
 				4C4427702777229000BEB493 /* Expense+CoreDataProperties.swift */,
+				4C2E0C5727779079002F1665 /* ExpenseObj.swift */,
 				4C44274E27771E7A00BEB493 /* SceneDelegate.swift */,
 				4C44275027771E7A00BEB493 /* ViewController.swift */,
 				4C44276327771EA100BEB493 /* AddExpense.swift */,
@@ -188,6 +191,7 @@
 				4C4427722777229000BEB493 /* Expense+CoreDataProperties.swift in Sources */,
 				4C44275727771E7A00BEB493 /* ExpenseTrackApp.xcdatamodeld in Sources */,
 				4C44276A27771EA200BEB493 /* FilterView.swift in Sources */,
+				4C2E0C5827779079002F1665 /* ExpenseObj.swift in Sources */,
 				4C44274F27771E7A00BEB493 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

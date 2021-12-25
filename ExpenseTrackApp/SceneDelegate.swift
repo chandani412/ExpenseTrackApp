@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         self.window = window
 
-        print("sceneee")
+       // print("sceneee")
       
         
         let login = UserDefaults.standard.bool(forKey: isUserLogin)

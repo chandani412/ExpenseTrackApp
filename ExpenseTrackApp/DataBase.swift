@@ -12,7 +12,7 @@ class DataBase: NSObject {
     var managedObjectContext = NSManagedObjectContext()
     
     
-    func createData(data:Expense)
+    func createData(data:ExpenseObj)
     {
         
        
@@ -37,6 +37,7 @@ class DataBase: NSObject {
         
         do {
             try managedContext.save()
+            print("save")
            
         } catch let error as NSError {
             print("Could not save. \(error), \(error.userInfo)")

@@ -69,17 +69,11 @@ class AddExpense: UIViewController, SelectedCatDelegate,UITextFieldDelegate, UIG
         
         if expenceTitle.text != "" && expenceDate.text != "" &&  expenceAmount.text != "" && expenceCategory.text != "" {
             
-            let appDelegate = UIApplication.shared.delegate as? AppDelegate
-           
-           
-           let managedContext = appDelegate!.persistentContainer.viewContext
             
-            let object = Expense.init(context: managedContext)
-            object.title = expenceTitle.text!
-            object.amount = expenceAmount.text!
-            object.date = expenceDate.text!
-            object.notes = expenceNotes.text!
-            object.category = expenceCategory.text!
+            
+           // let object = Expense.init(context: managedContext)
+            let object = ExpenseObj.init(Title: expenceTitle.text!, Amount: expenceAmount.text!, Date: expenceDate.text!, Notes: expenceNotes.text!, Category: expenceCategory.text!)
+
             
             db.createData(data: object)
             
@@ -99,6 +93,7 @@ class AddExpense: UIViewController, SelectedCatDelegate,UITextFieldDelegate, UIG
         datePicker.isHidden = true
     }
     @IBAction func backClick(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
     }
     @IBAction func catClick(_ sender: Any) {
         
